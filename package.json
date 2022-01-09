@@ -1,0 +1,33 @@
+{
+  "name": "voicechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production node ./build.js",
+    "build:dev": "NODE_ENV=development node ./build.js",
+    "dev": "run-p build:dev start",
+    "start": "serve public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macrat/voicechat.git"
+  },
+  "author": "MacRat <m@crat.jp> (https://blanktar.jp/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macrat/voicechat/issues"
+  },
+  "homepage": "https://github.com/macrat/voicechat#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.11",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "serve": "^13.0.2"
+  },
+  "dependencies": {
+    "skyway-js": "^4.4.3"
+  }
+}

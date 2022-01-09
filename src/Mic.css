@@ -1,0 +1,9 @@
+.mic-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+}
+
+.mic-container progress {
+    width: 100%;
+}

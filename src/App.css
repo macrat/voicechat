@@ -1,0 +1,11 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: -8px;
+}
+
+li {
+  display: block;
+  padding: 8px;
+}

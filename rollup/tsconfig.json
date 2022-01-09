@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "./build",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react"
+  }
+}
